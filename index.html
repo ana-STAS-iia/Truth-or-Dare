@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Правда или действие</title>
+  </head>
+  <body>
+    <main class="content">
+      <div class="buttons">
+        <button
+          class="button button_truth"
+          type="button"
+          aria-haspopup="dialog"
+          aria-controls="dialog_truth"
+        >
+          Правда
+        </button>
+        <dialog class="dialog" id="dialog_truth">
+          <p id="text_truth"></p>
+          <button class="button_close-truth">X</button>
+        </dialog>
+        <p class="vs">&</p>
+        <button
+          class="button button_move"
+          type="button"
+          aria-haspopup="dialog"
+          aria-controls="dialog_move"
+        >
+          Действие
+        </button>
+        <dialog class="dialog" id="dialog_move">
+          <p id="text_move"></p>
+          <button class="button_close-move">X</button>
+        </dialog>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

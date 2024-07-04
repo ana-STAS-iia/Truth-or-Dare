@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-width: 375px;
+  max-width: 960px;
+  font-family: Impact, Charcoal, sans-serif;
+  margin: 0 auto;
+  height: 100%;
+  background: linear-gradient(to bottom, rgb(209, 11, 103) 30%, rgb(251, 100, 171) 75% );
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.button {
+  font: 70px Impact; 
+  border: 3px rgb(121, 7, 60) solid; 
+  border-radius: 5px; 
+  background-color: transparent; 
+  color: white;
+  -webkit-text-stroke: 2px rgb(121, 7, 60);
+  width: 350px;
+  height: 250px;
+}
+
+.button:active {
+  background-color: rgb(121, 7, 60, 40%) ; 
+}
+
+.vs {
+  font: 70px Impact; 
+  color: white;
+  -webkit-text-stroke: 2px rgb(121, 7, 60);
+}
+
+.dialog_truth {
+  display: none;
+}
+
+
+
