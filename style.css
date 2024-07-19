@@ -67,5 +67,15 @@ p {
   display: none;
 }
 
+.button_close {
+  background-color: white;
+  margin-left: 50%;
+}
+
+.button_close:active {
+  background-color: black;
+  color: white;
+}
+
 
 
